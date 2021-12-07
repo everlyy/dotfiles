@@ -7,11 +7,11 @@ static const int showbar           = 1;     /* 0 means no bar */
 static const int topbar            = 1;     /* 0 means bottom bar */
 static const char *fonts[]         = { "Roboto Mono:size=12" };
 static const char dmenufont[]      = "Roboto Mono:size=12";
-static const char col_gray1[]      = "#0e0e0e";
-static const char col_gray2[]      = "#ffffff";
-static const char col_gray3[]      = "#ffffff";
-static const char col_gray4[]      = "#0e0e0e";
-static const char col_cyan[]       = "#ff0080";
+static const char col_gray1[]      = "#040306";
+static const char col_gray2[]      = "#dfdbe5";
+static const char col_gray3[]      = "#dfdbe5";
+static const char col_gray4[]      = "#040306";
+static const char col_cyan[]       = "#d3679b";
 static const char *colors[][3]     = {
     /*                  fg         bg        border  */
     [SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
