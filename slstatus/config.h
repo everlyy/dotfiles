@@ -65,9 +65,9 @@ static const char unknown_str[] = "?";
  */
 static const struct arg args[] = {
 	/* function  format          argument */
-	{ ipv4,      "^c#d46b9d^ IP %s",  "enp6s0"      },
-	{ uptime,    "^c#b28157^ UP %s",  NULL          },
-	{ ram_used,  "^c#b596da^ RAM %s", NULL          },
-	{ disk_used, "^c#91a172^ DSK %s", "/"           },
-	{ datetime,  "^c#c29571^ %s ",    "%a %d/%m %T" },
+	{ ipv4,      "^c#87c4dd^ IP %s",  "enp6s0"      },
+	{ uptime,    "^c#d46b9d^ UP %s",  NULL          },
+	{ ram_used,  "^c#dfdbe5^ RAM %s", NULL          },
+	{ disk_used, "^c#d46b9d^ DSK %s", "/"           },
+	{ datetime,  "^c#87c4dd^ %s ",    "%a %d/%m %T" },
 };
