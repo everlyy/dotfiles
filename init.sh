@@ -4,7 +4,7 @@ FILES=/home/florian/Documents/dotfiles
 slstatus &
 
 # Set wallpaper.
-feh --no-fehbg --bg-fill $FILES/wallpapers/wallpaper.png &
+feh --no-fehbg --bg-fill $FILES/wallpapers/wallpaper.jpeg &
 
 # Run script to set drawing tablet area
 python3 $FILES/other/tablet.py & 
