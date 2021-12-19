@@ -14,6 +14,3 @@ xcompmgr -c &
 
 # Set digital vibrance (nvidia only)
 nvidia-settings --assign DigitalVibrance=1023 &
-
-# Start premid for soundcloud rich presence in discord
-premid &
