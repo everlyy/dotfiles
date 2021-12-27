@@ -12,8 +12,8 @@ alias uwu="sudo"
 alias die="shutdown -P now"
 alias flex="neofetch"
 alias ls="ls --color"
-alias update="uwu apt update && uwu apt upgrade -y"
+alias update="uwu apt update && uwu apt upgrade -y && uwu apt autopurge"
 
-export PS1="\[$(tput setaf 4)\][\[$(tput setaf 6)\]\W\[$(tput setaf 4)\]]\[$(tput setaf 5)\] -> \[$(tput sgr0)\]"
+export PS1="\[$(tput setaf 1)\][\[$(tput setaf 7)\]\W\[$(tput setaf 1)\]]\[$(tput setaf 3)\] -> \[$(tput sgr0)\]"
 
 cbonsai -p
