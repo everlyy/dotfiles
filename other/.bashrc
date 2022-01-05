@@ -12,7 +12,7 @@ alias uwu="sudo"
 alias die="shutdown -P now"
 alias flex="neofetch"
 alias ls="ls --color"
-alias update="uwu apt update && uwu apt upgrade -y && uwu apt autopurge"
+alias update="uwu apt update && uwu apt upgrade -y && uwu apt autopurge -y"
 
 export PS1="\[$(tput setaf 1)\][\[$(tput setaf 7)\]\W\[$(tput setaf 1)\]]\[$(tput setaf 3)\] -> \[$(tput sgr0)\]"
 
