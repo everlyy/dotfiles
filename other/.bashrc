@@ -16,4 +16,4 @@ alias update="uwu apt update && uwu apt upgrade -y && uwu apt autopurge -y"
 
 export PS1="\[$(tput setaf 1)\][\[$(tput setaf 7)\]\W\[$(tput setaf 1)\]]\[$(tput setaf 3)\] -> \[$(tput sgr0)\]"
 
-cbonsai -p
+tmux
