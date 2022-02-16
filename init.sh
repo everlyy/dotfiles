@@ -1,4 +1,4 @@
-FILES=/home/florian/Documents/dotfiles
+FILES=/home/everly/Documents/dotfiles
 
 # Start slstatus for resource usage, date, etc.
 slstatus &
