@@ -9,7 +9,7 @@ overwrite ~/.bashrc with .bashrc
 copy Roboto Mono font to ~/.local/share/fonts and rebuild font cache (fc-cache -fv)
 check dwm/config.h and make sure screenshot path is correct
 check init.sh and make sure FILES is set correctly
-compile dwm, st, dmenu, cbonsai, slstatus and ly
+compile dwm, st, dmenu, slstatus and ly
 copy dwm.desktop to /usr/share/xsessions/dwm.desktop
 install ly
 
