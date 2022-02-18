@@ -13,6 +13,8 @@ compile dwm, st, dmenu, slstatus and ly
 copy dwm.desktop to /usr/share/xsessions/dwm.desktop
 install ly
 
+remap caps lock to right shift /usr/share/X11/xkb/symbols/pc
+
 
 git://git.suckless.org/dwm
 git://git.suckless.org/dmenu
