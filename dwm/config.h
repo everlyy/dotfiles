@@ -4,7 +4,7 @@
 static const unsigned int borderpx = 3;     /* border pixel of windows */
 static const unsigned int snap     = 32;    /* snap pixel */
 static const int showbar           = 1;     /* 0 means no bar */
-static const int topbar            = 1;     /* 0 means bottom bar */
+static const int topbar            = 0;     /* 0 means bottom bar */
 static const char *fonts[]         = { "Roboto Mono:size=12" };
 static const char dmenufont[]      = "Roboto Mono:size=12";
 static const char col_gray1[]      = "#040306";
