@@ -13,4 +13,4 @@ alias ls="ls --color"
 alias ll="ls -l"
 
 
-export PS1="\[$(tput setaf 1)\][\[$(tput setaf 7)\]\u\[$(tput setaf 1)\]:\[$(tput setaf 7)\]\W\[$(tput setaf 1)\]]\[$(tput setaf 3)\] -> \[$(tput sgr0)\]"
+export PS1="\[$(tput setaf 2)\][\[$(tput setaf 0)\]\u\[$(tput setaf 2)\]:\[$(tput setaf 0)\]\W\[$(tput setaf 2)\]]\[$(tput setaf 0)\] -> \[$(tput sgr0)\]"
