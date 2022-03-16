@@ -8,8 +8,8 @@ esac
 function title { echo -en "\033]2;st - $1\007"; }
 function cd { dir=$1; if [ -z "$dir" ]; then dir=~; fi; builtin cd "$dir" && title `pwd`; }
 
-HISTSIZE=500
-HISTFILESIZE=500
+HISTSIZE=10000
+HISTFILESIZE=10000
 
 alias uwu="sudo"
 alias ls="ls --color"
