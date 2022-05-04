@@ -124,6 +124,7 @@ static const char *colorname[] = {
   [257] = "#c1c6da", /* foreground */
 };
 
+
 /*
  * Default colors (colorname index)
  * foreground, background, cursor, reverse cursor

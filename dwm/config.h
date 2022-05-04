@@ -67,6 +67,7 @@ static const char *upvol[]           = { "/usr/bin/amixer", "-q", "-D", "pulse",
 static const char *downvol[]         = { "/usr/bin/amixer", "-q", "-D", "pulse", "sset", "Master", "5%-", NULL };
 static const char *ranger[]          = { "st", "ranger", NULL };
 static const char *htop[]            = { "st", "htop", NULL };
+static const char *playpause[]       = { "/usr/bin/playerctl", "play-pause", NULL };
 
 static Key keys[] = {
     /* modifier             key           function        argument */
@@ -103,6 +104,7 @@ static Key keys[] = {
     { MODKEY | ShiftMask,   XK_a,         spawn,          { .v = screenshot_wind } },
     { MODKEY,               XK_b,         spawn,          { .v = downvol } },
     { MODKEY,               XK_n,         spawn,          { .v = upvol } },
+    { MODKEY,               XK_m,         spawn,          { .v = playpause } },
     { MODKEY,               XK_e,         spawn,          { .v = ranger } },
     { MODKEY,               XK_q,         spawn,          { .v = htop } },
 };
