@@ -4,7 +4,7 @@ FILES=/home/everly/Documents/dotfiles
 slstatus &
 
 # Set wallpaper.
-feh --no-fehbg --bg-fill $FILES/wallpapers/celeste.png &
+feh --no-fehbg --bg-fill $FILES/wallpapers/image.jpeg &
 
 # Run script to set drawing tablet area
 python3 $FILES/other/tablet.py & 
