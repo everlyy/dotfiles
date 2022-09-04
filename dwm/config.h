@@ -10,7 +10,7 @@ static const char *fonts[]         = { "Roboto Mono:size=14" };
 static const char dmenufont[]      = "Roboto Mono:size=14";
 static const char col_gray1[]      = "#000000";
 static const char col_gray2[]      = "#000000";
-static const char col_gray3[]      = "#c1c6da";
+static const char col_gray3[]      = "#ffffff";
 static const char col_gray4[]      = "#000000";
 static const char col_cyan[]       = "#a43261";
 static const char *colors[][3]     = {
