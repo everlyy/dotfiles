@@ -59,7 +59,7 @@ static const Layout layouts[] = {
 
 /* commands */
 static char dmenumon[2]              = "0"; /* component of dmenucmd, manipulated in spawn() */
-static const char *dmenucmd[]        = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL };
+static const char *dmenucmd[]        = { "rofi", "-modi", "drun", "-show", "drun", "-show-icons", NULL};
 static const char *termcmd[]         = { "st", NULL };
 static const char *screenshot_area[] = { "/usr/bin/scrot", "-s", "/home/everly/Pictures/screenshots/%Y-%m-%d-%T.png", "-q", "90", "-f", "-e", "xclip -selection clipboard -t image/png -i $f", NULL };
 static const char *screenshot_wind[] = { "/usr/bin/scrot", "-u", "/home/everly/Pictures/screenshots/%Y-%m-%d-%T.png", "-q", "90", "-e", "xclip -selection clipboard -t image/png -i $f", NULL };
