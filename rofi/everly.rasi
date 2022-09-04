@@ -1,5 +1,5 @@
 * {
-    font:   "Comfortaa-Regular 12";
+    font: "Comfortaa Bold 12";
     dark-color: #000000;
     text-color: #a43261;
     accent-color: #ff9fc9;
@@ -59,7 +59,7 @@ element selected normal {
 }
 
 element-icon {
-    size: 0.75em;
+    size: 1em;
 }
 
 element-text {
