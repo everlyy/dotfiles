@@ -1,8 +1,8 @@
 * {
     font:   "Comfortaa-Regular 12";
-    dark-color: #0e111a;
-    text-color: #e393d6;
-    accent-color: #f4c3eb;
+    dark-color: #000000;
+    text-color: #a43261;
+    accent-color: #ff9fc9;
 
     background-color: transparent;
 
