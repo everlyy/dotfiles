@@ -1,9 +1,9 @@
 * {
-    font: "Comfortaa Bold 12";
+    font: "Roboto 12";
     dark-color: #000000;
-    text-color: #a43261;
-    accent-color: #ff9fc9;
+    accent-color: #a43261;
 
+    text-color: @accent-color;
     background-color: transparent;
 
     margin: 0px;
@@ -16,9 +16,10 @@ window {
     border-color: @accent-color;
 
     location: center;
-    width: 480px;
-    y-offset: -160px;
+    width: 720px;
+    y-offset: -360px;
     border: 2px;
+    border-radius: 5px;
 }
 
 inputbar {
@@ -36,7 +37,7 @@ prompt {
 }
 
 listview {
-    lines: 8;
+    lines: 5;
     columns: 1;
     fixed-height: false;
 }
