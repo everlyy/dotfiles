@@ -15,9 +15,9 @@ window {
     background-color: @dark-color;
     border-color: @accent-color;
 
-    location: center;
+    location: north;
     width: 720px;
-    y-offset: -360px;
+    y-offset: 120px;
     border: 2px;
     border-radius: 5px;
 }

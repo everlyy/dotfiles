@@ -2,7 +2,7 @@ Installation:
 
 Clone git repo to ~/Documents/dotfiles/
 
-programs: rofi scrot amixer playerctl xclip
+programs: rofi dunst scrot amixer playerctl xclip
 
 ~/.xsessionrc runs init.sh
 overwrite ~/.bashrc with .bashrc
@@ -12,6 +12,7 @@ check init.sh and make sure FILES is set correctly
 compile dwm, st, slstatus and ly
 copy dwm.desktop to /usr/share/xsessions/dwm.desktop
 copy rofi config to ~/.local/share/rofi/themes/
+copy dunst config to ~/.config/dunst/
 install ly
 
 remap caps lock to right shift /usr/share/X11/xkb/symbols/pc
