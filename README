@@ -2,7 +2,7 @@ Installation:
 
 Clone git repo to ~/Documents/dotfiles/
 
-programs: rofi dunst scrot amixer playerctl xclip picom
+programs: rofi dunst scrot amixer playerctl xclip xcompmgr
 
 ~/.xsessionrc runs init.sh
 overwrite ~/.bashrc with .bashrc
