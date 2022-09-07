@@ -10,7 +10,7 @@ feh --no-fehbg --bg-fill $FILES/wallpapers/image.jpeg &
 python3 $FILES/other/tablet.py & 
 
 # Start transparency manager
-picom & 
+xcompmgr -c & 
 
 # Set digital vibrance (nvidia only)
 nvidia-settings --assign DigitalVibrance=1023 &
