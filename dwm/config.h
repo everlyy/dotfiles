@@ -61,8 +61,7 @@ static const Layout layouts[] = {
 static char dmenumon[2]              = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[]        = { "rofi", "-modi", "drun", "-show", "drun", "-show-icons", NULL};
 static const char *termcmd[]         = { "st", NULL };
-static const char *screenshot_area[] = { "/usr/bin/scrot", "-s", "/home/everly/Pictures/screenshots/%Y-%m-%d-%T.png", "-q", "90", "-f", "-e", "xclip -selection clipboard -t image/png -i $f", NULL };
-static const char *screenshot_wind[] = { "/usr/bin/scrot", "-u", "/home/everly/Pictures/screenshots/%Y-%m-%d-%T.png", "-q", "90", "-e", "xclip -selection clipboard -t image/png -i $f", NULL };
+static const char *screenshot_area[] = { "/home/everly/Documents/dotfiles/other/screenshot.sh", NULL };
 static const char *upvol[]           = { "/usr/bin/amixer", "-q", "-D", "pulse", "sset", "Master", "5%+", NULL };
 static const char *downvol[]         = { "/usr/bin/amixer", "-q", "-D", "pulse", "sset", "Master", "5%-", NULL };
 static const char *htop[]            = { "st", "htop", NULL };
@@ -100,7 +99,6 @@ static Key keys[] = {
     TAGKEYS(                XK_5,                         4)
     { MODKEY | ShiftMask,   XK_BackSpace, quit,           { 0 } },
     { MODKEY | ShiftMask,   XK_s,         spawn,          { .v = screenshot_area } },
-    { MODKEY | ShiftMask,   XK_a,         spawn,          { .v = screenshot_wind } },
     { MODKEY,               XK_b,         spawn,          { .v = downvol } },
     { MODKEY,               XK_n,         spawn,          { .v = upvol } },
     { MODKEY,               XK_m,         spawn,          { .v = playpause } },
